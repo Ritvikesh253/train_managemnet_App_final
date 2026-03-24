@@ -1,20 +1,9 @@
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * Train Consist Management App
- * UC1: Initialize Train and Display Consist Summary
- * UC2: Add Passenger Bogies to Train (ArrayList Operations)
- * UC3: Track Unique Bogie IDs (Set – HashSet)
- * UC4: Maintain Ordered Bogie IDs (LinkedList)
- * UC5: Preserve Insertion Order of Bogies (LinkedHashSet)
- * UC6: Map Bogie to Capacity (HashMap)
+ * UC1: Initialize Train and Display Consist Summary (ArrayList)
  */
 public class TrainConsistManagementApp {
 
@@ -30,8 +19,9 @@ public class TrainConsistManagementApp {
         System.out.println("Train consist initialized successfully.");
         System.out.println("Initial bogie count: " + passengerBogies.size());
         System.out.println();
+    }
+}
 
-        // UC2: Add Passenger Bogies to Train (ArrayList Operations)
         System.out.println("--- UC2: Adding Passenger Bogies ---");
         System.out.println();
 
